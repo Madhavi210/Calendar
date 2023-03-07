@@ -84,6 +84,8 @@ document.querySelector('#next-year').onclick = () => {
     generateCalendar(curr_month.value, curr_year.value)
 }
 
+// light dark mode
+
 let dark_mode_toggle = document.querySelector('.dark-mode-switch')
 
 dark_mode_toggle.onclick = () => {
